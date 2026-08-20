@@ -2,6 +2,8 @@
 
 A personal knowledge base with semantic search, built on [OSpipe](https://github.com/) (via `ospipe-server`).
 
+![my-kb screenshot](docs/screenshot.png)
+
 ## Stack
 
 - **Client** — React + Vite + Tailwind (`client/`)
