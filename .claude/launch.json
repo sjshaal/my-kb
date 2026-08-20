@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "my-kb-server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "server"],
+      "port": 3031
+    },
+    {
+      "name": "my-kb-client",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "client"],
+      "port": 5173
+    },
+    {
+      "name": "ospipe",
+      "runtimeExecutable": "/Users/jennifershaal/.cargo/bin/cargo",
+      "runtimeArgs": ["run", "--bin", "ospipe-server", "--release"],
+      "cwd": "/Users/jennifershaal/code/ruvector",
+      "port": 3030
+    }
+  ]
+}

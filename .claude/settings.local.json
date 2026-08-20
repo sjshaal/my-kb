@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/jennifershaal/code/ruvector/**)",
+      "Bash(npx tsx:*)"
+    ]
+  }
+}
